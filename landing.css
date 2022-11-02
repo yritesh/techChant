@@ -1,0 +1,30 @@
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+  }
+body{
+    margin:0px;
+}
+.title_bar{
+    display:flex;
+    font-family: montserrat;
+    padding-top:20px;
+    padding-bottom:20px;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.35);
+}
+.left_title_bar{
+    flex-basis: 40%;
+}
+.right_title_bar{
+    flex-basis: 60%;
+}
+.menu{
+    display:flex;
+}
+.menu_item{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:20px;
+}
